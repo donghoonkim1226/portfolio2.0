@@ -9,15 +9,15 @@ var PORT = process.env.PORT || 8080;
 app.use("/static", express.static("public"));
 
 app.get("/", function(req, res) {
-  res.sendFile(process.cwd() + "/views/index.html");
+  res.sendFile(process.cwd() + "views/index.html");
 });
 
 app.get("/rps", function(req, res) {
-  res.sendFile(process.cwd() + "/views/rps.html");
+  res.sendFile(process.cwd() + "views/rps.html");
 });
 
 app.get("/clicky", function(req, res) {
-  res.sendFile(process.cwd() + "/views/clicky.html");
+  res.sendFile(process.cwd() + "views/clicky.html");
 });
 
 app.get("/signin", function(req, res) {
