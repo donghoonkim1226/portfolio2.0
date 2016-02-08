@@ -1,0 +1,68 @@
+* {
+	font-family: 'Press Start 2P', cursive;
+}
+
+#top-panel {
+	background-color: black;
+	color: white;
+}
+
+body {
+	background-color: black;
+}
+
+h3 {
+	color: white;
+}
+.panel-heading {
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+
+h2 {
+	text-align: center;
+	background-color: gray;
+}
+
+#background {
+	height: 400px;
+	widows: auto;
+}
+
+#ryu-left {
+	position: absolute;
+	right: 50px;
+	height: 200px;
+	width: auto;
+	padding: 10px;
+
+}
+
+#charlie-right {
+	position: absolute;
+	left: -20px;
+	height: 200px;
+	width: auto;
+	padding: 10px;
+}
+
+#game-screen {
+	height: 200px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	font-size: 1.5em;
+
+}
+
+th {
+	text-align: center;
+	color: white;
+}
+
+td {
+	text-align: center;
+	color: white;
+	font-size: 2em;
+}
