@@ -24,10 +24,6 @@ app.get("/signin", function(req, res) {
   res.sendFile(process.cwd() + "/views/signin.html");
 });
 
-app.get("/index_img1", function(req, res) {
-  res.sendFile(process.cwd() + "/public/image/index_image/placeholder1.jpg");
-});
-
 app.use(bodyParser.urlencoded({extended: false}));
 
 app.use(session({
