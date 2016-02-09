@@ -2,7 +2,7 @@
   "name": "my_portfolio",
   "version": "1.0.0",
   "description": "My portfolio",
-  "main": "middleware.js",
+  "main": "server.js",
   "dependencies": {
     "body-parser": "^1.14.2",
     "express-session": "^1.13.0",
