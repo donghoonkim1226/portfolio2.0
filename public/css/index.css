@@ -37,6 +37,12 @@ header.carousel .fill .header_image {
     background-size: cover;
 }
 
+.social-icon {
+    width: 25px;
+    height: 25px;
+    background-position: center;
+}
+
 /* 404 Page Styles */
 
 .error-404 {
