@@ -30,7 +30,7 @@ header.carousel .carousel-inner {
     height: 100%;
 }
 
-header.carousel .fill {
+header.carousel .fill .header_image {
     width: 100%;
     height: 100%;
     background-position: center;
