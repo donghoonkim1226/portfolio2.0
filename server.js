@@ -30,6 +30,10 @@ app.get("/clicky", function(req, res) {
   res.sendFile(process.cwd() + "/views/clicky.html");
 });
 
+app.get("/contact", function(req, res) {
+  res.sendFile(process.cwd() + "/views/contact.html");
+});
+
 app.get("/:default", function(req, res) {
   res.status(404);
   res.sendFile(process.cwd() + "/views/404.html");
